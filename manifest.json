@@ -1,10 +1,1291 @@
 {
-  "generated_at": "2026-05-15T17:55:18+00:00",
+  "generated_at": "2026-05-15T18:05:31+00:00",
   "versions": [
     "original",
     "fixed_jec"
   ],
-  "plot_count": 0,
+  "plot_count": 160,
   "paired_count": 0,
-  "plots": []
+  "plots": [
+    {
+      "path": "bottom_line_groomed_-1.png",
+      "folder": ".",
+      "name": "bottom line groomed -1",
+      "files": {
+        "original": "plots/original/bottom_line_groomed_-1.png"
+      }
+    },
+    {
+      "path": "bottom_line_groomed_0.png",
+      "folder": ".",
+      "name": "bottom line groomed 0",
+      "files": {
+        "original": "plots/original/bottom_line_groomed_0.png"
+      }
+    },
+    {
+      "path": "bottom_line_groomed_1.png",
+      "folder": ".",
+      "name": "bottom line groomed 1",
+      "files": {
+        "original": "plots/original/bottom_line_groomed_1.png"
+      }
+    },
+    {
+      "path": "bottom_line_groomed_2.png",
+      "folder": ".",
+      "name": "bottom line groomed 2",
+      "files": {
+        "original": "plots/original/bottom_line_groomed_2.png"
+      }
+    },
+    {
+      "path": "bottom_line_ungroomed_-1.png",
+      "folder": ".",
+      "name": "bottom line ungroomed -1",
+      "files": {
+        "original": "plots/original/bottom_line_ungroomed_-1.png"
+      }
+    },
+    {
+      "path": "bottom_line_ungroomed_0.png",
+      "folder": ".",
+      "name": "bottom line ungroomed 0",
+      "files": {
+        "original": "plots/original/bottom_line_ungroomed_0.png"
+      }
+    },
+    {
+      "path": "bottom_line_ungroomed_1.png",
+      "folder": ".",
+      "name": "bottom line ungroomed 1",
+      "files": {
+        "original": "plots/original/bottom_line_ungroomed_1.png"
+      }
+    },
+    {
+      "path": "bottom_line_ungroomed_2.png",
+      "folder": ".",
+      "name": "bottom line ungroomed 2",
+      "files": {
+        "original": "plots/original/bottom_line_ungroomed_2.png"
+      }
+    },
+    {
+      "path": "fakerates_groomed_-1.png",
+      "folder": ".",
+      "name": "fakerates groomed -1",
+      "files": {
+        "original": "plots/original/fakerates_groomed_-1.png"
+      }
+    },
+    {
+      "path": "fakerates_groomed_0.png",
+      "folder": ".",
+      "name": "fakerates groomed 0",
+      "files": {
+        "original": "plots/original/fakerates_groomed_0.png"
+      }
+    },
+    {
+      "path": "fakerates_groomed_1.png",
+      "folder": ".",
+      "name": "fakerates groomed 1",
+      "files": {
+        "original": "plots/original/fakerates_groomed_1.png"
+      }
+    },
+    {
+      "path": "fakerates_groomed_2.png",
+      "folder": ".",
+      "name": "fakerates groomed 2",
+      "files": {
+        "original": "plots/original/fakerates_groomed_2.png"
+      }
+    },
+    {
+      "path": "fakerates_ungroomed_-1.png",
+      "folder": ".",
+      "name": "fakerates ungroomed -1",
+      "files": {
+        "original": "plots/original/fakerates_ungroomed_-1.png"
+      }
+    },
+    {
+      "path": "fakerates_ungroomed_0.png",
+      "folder": ".",
+      "name": "fakerates ungroomed 0",
+      "files": {
+        "original": "plots/original/fakerates_ungroomed_0.png"
+      }
+    },
+    {
+      "path": "fakerates_ungroomed_1.png",
+      "folder": ".",
+      "name": "fakerates ungroomed 1",
+      "files": {
+        "original": "plots/original/fakerates_ungroomed_1.png"
+      }
+    },
+    {
+      "path": "fakerates_ungroomed_2.png",
+      "folder": ".",
+      "name": "fakerates ungroomed 2",
+      "files": {
+        "original": "plots/original/fakerates_ungroomed_2.png"
+      }
+    },
+    {
+      "path": "groomed_summary.png",
+      "folder": ".",
+      "name": "groomed summary",
+      "files": {
+        "original": "plots/original/groomed_summary.png"
+      }
+    },
+    {
+      "path": "groomed_summary_linear.png",
+      "folder": ".",
+      "name": "groomed summary linear",
+      "files": {
+        "original": "plots/original/groomed_summary_linear.png"
+      }
+    },
+    {
+      "path": "input_groomed_0.png",
+      "folder": ".",
+      "name": "input groomed 0",
+      "files": {
+        "original": "plots/original/input_groomed_0.png"
+      }
+    },
+    {
+      "path": "input_groomed_1.png",
+      "folder": ".",
+      "name": "input groomed 1",
+      "files": {
+        "original": "plots/original/input_groomed_1.png"
+      }
+    },
+    {
+      "path": "input_groomed_2.png",
+      "folder": ".",
+      "name": "input groomed 2",
+      "files": {
+        "original": "plots/original/input_groomed_2.png"
+      }
+    },
+    {
+      "path": "input_groomed_3.png",
+      "folder": ".",
+      "name": "input groomed 3",
+      "files": {
+        "original": "plots/original/input_groomed_3.png"
+      }
+    },
+    {
+      "path": "input_ungroomed_0.png",
+      "folder": ".",
+      "name": "input ungroomed 0",
+      "files": {
+        "original": "plots/original/input_ungroomed_0.png"
+      }
+    },
+    {
+      "path": "input_ungroomed_1.png",
+      "folder": ".",
+      "name": "input ungroomed 1",
+      "files": {
+        "original": "plots/original/input_ungroomed_1.png"
+      }
+    },
+    {
+      "path": "input_ungroomed_2.png",
+      "folder": ".",
+      "name": "input ungroomed 2",
+      "files": {
+        "original": "plots/original/input_ungroomed_2.png"
+      }
+    },
+    {
+      "path": "input_ungroomed_3.png",
+      "folder": ".",
+      "name": "input ungroomed 3",
+      "files": {
+        "original": "plots/original/input_ungroomed_3.png"
+      }
+    },
+    {
+      "path": "uncertainties/ElectronSF_groomed_-1.png",
+      "folder": "uncertainties",
+      "name": "ElectronSF groomed -1",
+      "files": {
+        "original": "plots/original/uncertainties/ElectronSF_groomed_-1.png"
+      }
+    },
+    {
+      "path": "uncertainties/ElectronSF_groomed_0.png",
+      "folder": "uncertainties",
+      "name": "ElectronSF groomed 0",
+      "files": {
+        "original": "plots/original/uncertainties/ElectronSF_groomed_0.png"
+      }
+    },
+    {
+      "path": "uncertainties/ElectronSF_groomed_1.png",
+      "folder": "uncertainties",
+      "name": "ElectronSF groomed 1",
+      "files": {
+        "original": "plots/original/uncertainties/ElectronSF_groomed_1.png"
+      }
+    },
+    {
+      "path": "uncertainties/ElectronSF_groomed_2.png",
+      "folder": "uncertainties",
+      "name": "ElectronSF groomed 2",
+      "files": {
+        "original": "plots/original/uncertainties/ElectronSF_groomed_2.png"
+      }
+    },
+    {
+      "path": "uncertainties/ElectronSF_ungroomed_-1.png",
+      "folder": "uncertainties",
+      "name": "ElectronSF ungroomed -1",
+      "files": {
+        "original": "plots/original/uncertainties/ElectronSF_ungroomed_-1.png"
+      }
+    },
+    {
+      "path": "uncertainties/ElectronSF_ungroomed_0.png",
+      "folder": "uncertainties",
+      "name": "ElectronSF ungroomed 0",
+      "files": {
+        "original": "plots/original/uncertainties/ElectronSF_ungroomed_0.png"
+      }
+    },
+    {
+      "path": "uncertainties/ElectronSF_ungroomed_1.png",
+      "folder": "uncertainties",
+      "name": "ElectronSF ungroomed 1",
+      "files": {
+        "original": "plots/original/uncertainties/ElectronSF_ungroomed_1.png"
+      }
+    },
+    {
+      "path": "uncertainties/ElectronSF_ungroomed_2.png",
+      "folder": "uncertainties",
+      "name": "ElectronSF ungroomed 2",
+      "files": {
+        "original": "plots/original/uncertainties/ElectronSF_ungroomed_2.png"
+      }
+    },
+    {
+      "path": "uncertainties/JES_groomed_-1.png",
+      "folder": "uncertainties",
+      "name": "JES groomed -1",
+      "files": {
+        "original": "plots/original/uncertainties/JES_groomed_-1.png"
+      }
+    },
+    {
+      "path": "uncertainties/JES_groomed_0.png",
+      "folder": "uncertainties",
+      "name": "JES groomed 0",
+      "files": {
+        "original": "plots/original/uncertainties/JES_groomed_0.png"
+      }
+    },
+    {
+      "path": "uncertainties/JES_groomed_1.png",
+      "folder": "uncertainties",
+      "name": "JES groomed 1",
+      "files": {
+        "original": "plots/original/uncertainties/JES_groomed_1.png"
+      }
+    },
+    {
+      "path": "uncertainties/JES_groomed_2.png",
+      "folder": "uncertainties",
+      "name": "JES groomed 2",
+      "files": {
+        "original": "plots/original/uncertainties/JES_groomed_2.png"
+      }
+    },
+    {
+      "path": "uncertainties/JES_ungroomed_-1.png",
+      "folder": "uncertainties",
+      "name": "JES ungroomed -1",
+      "files": {
+        "original": "plots/original/uncertainties/JES_ungroomed_-1.png"
+      }
+    },
+    {
+      "path": "uncertainties/JES_ungroomed_0.png",
+      "folder": "uncertainties",
+      "name": "JES ungroomed 0",
+      "files": {
+        "original": "plots/original/uncertainties/JES_ungroomed_0.png"
+      }
+    },
+    {
+      "path": "uncertainties/JES_ungroomed_1.png",
+      "folder": "uncertainties",
+      "name": "JES ungroomed 1",
+      "files": {
+        "original": "plots/original/uncertainties/JES_ungroomed_1.png"
+      }
+    },
+    {
+      "path": "uncertainties/JES_ungroomed_2.png",
+      "folder": "uncertainties",
+      "name": "JES ungroomed 2",
+      "files": {
+        "original": "plots/original/uncertainties/JES_ungroomed_2.png"
+      }
+    },
+    {
+      "path": "uncertainties/JMS_groomed_-1.png",
+      "folder": "uncertainties",
+      "name": "JMS groomed -1",
+      "files": {
+        "original": "plots/original/uncertainties/JMS_groomed_-1.png"
+      }
+    },
+    {
+      "path": "uncertainties/JMS_groomed_0.png",
+      "folder": "uncertainties",
+      "name": "JMS groomed 0",
+      "files": {
+        "original": "plots/original/uncertainties/JMS_groomed_0.png"
+      }
+    },
+    {
+      "path": "uncertainties/JMS_groomed_1.png",
+      "folder": "uncertainties",
+      "name": "JMS groomed 1",
+      "files": {
+        "original": "plots/original/uncertainties/JMS_groomed_1.png"
+      }
+    },
+    {
+      "path": "uncertainties/JMS_groomed_2.png",
+      "folder": "uncertainties",
+      "name": "JMS groomed 2",
+      "files": {
+        "original": "plots/original/uncertainties/JMS_groomed_2.png"
+      }
+    },
+    {
+      "path": "uncertainties/JMS_ungroomed_-1.png",
+      "folder": "uncertainties",
+      "name": "JMS ungroomed -1",
+      "files": {
+        "original": "plots/original/uncertainties/JMS_ungroomed_-1.png"
+      }
+    },
+    {
+      "path": "uncertainties/JMS_ungroomed_0.png",
+      "folder": "uncertainties",
+      "name": "JMS ungroomed 0",
+      "files": {
+        "original": "plots/original/uncertainties/JMS_ungroomed_0.png"
+      }
+    },
+    {
+      "path": "uncertainties/JMS_ungroomed_1.png",
+      "folder": "uncertainties",
+      "name": "JMS ungroomed 1",
+      "files": {
+        "original": "plots/original/uncertainties/JMS_ungroomed_1.png"
+      }
+    },
+    {
+      "path": "uncertainties/JMS_ungroomed_2.png",
+      "folder": "uncertainties",
+      "name": "JMS ungroomed 2",
+      "files": {
+        "original": "plots/original/uncertainties/JMS_ungroomed_2.png"
+      }
+    },
+    {
+      "path": "uncertainties/heatmap_groomed_-1.png",
+      "folder": "uncertainties",
+      "name": "heatmap groomed -1",
+      "files": {
+        "original": "plots/original/uncertainties/heatmap_groomed_-1.png"
+      }
+    },
+    {
+      "path": "uncertainties/heatmap_groomed_0.png",
+      "folder": "uncertainties",
+      "name": "heatmap groomed 0",
+      "files": {
+        "original": "plots/original/uncertainties/heatmap_groomed_0.png"
+      }
+    },
+    {
+      "path": "uncertainties/heatmap_groomed_1.png",
+      "folder": "uncertainties",
+      "name": "heatmap groomed 1",
+      "files": {
+        "original": "plots/original/uncertainties/heatmap_groomed_1.png"
+      }
+    },
+    {
+      "path": "uncertainties/heatmap_groomed_2.png",
+      "folder": "uncertainties",
+      "name": "heatmap groomed 2",
+      "files": {
+        "original": "plots/original/uncertainties/heatmap_groomed_2.png"
+      }
+    },
+    {
+      "path": "uncertainties/heatmap_ungroomed_-1.png",
+      "folder": "uncertainties",
+      "name": "heatmap ungroomed -1",
+      "files": {
+        "original": "plots/original/uncertainties/heatmap_ungroomed_-1.png"
+      }
+    },
+    {
+      "path": "uncertainties/heatmap_ungroomed_0.png",
+      "folder": "uncertainties",
+      "name": "heatmap ungroomed 0",
+      "files": {
+        "original": "plots/original/uncertainties/heatmap_ungroomed_0.png"
+      }
+    },
+    {
+      "path": "uncertainties/heatmap_ungroomed_1.png",
+      "folder": "uncertainties",
+      "name": "heatmap ungroomed 1",
+      "files": {
+        "original": "plots/original/uncertainties/heatmap_ungroomed_1.png"
+      }
+    },
+    {
+      "path": "uncertainties/heatmap_ungroomed_2.png",
+      "folder": "uncertainties",
+      "name": "heatmap ungroomed 2",
+      "files": {
+        "original": "plots/original/uncertainties/heatmap_ungroomed_2.png"
+      }
+    },
+    {
+      "path": "uncertainties/herwig_groomed_-1.png",
+      "folder": "uncertainties",
+      "name": "herwig groomed -1",
+      "files": {
+        "original": "plots/original/uncertainties/herwig_groomed_-1.png"
+      }
+    },
+    {
+      "path": "uncertainties/herwig_groomed_0.png",
+      "folder": "uncertainties",
+      "name": "herwig groomed 0",
+      "files": {
+        "original": "plots/original/uncertainties/herwig_groomed_0.png"
+      }
+    },
+    {
+      "path": "uncertainties/herwig_groomed_1.png",
+      "folder": "uncertainties",
+      "name": "herwig groomed 1",
+      "files": {
+        "original": "plots/original/uncertainties/herwig_groomed_1.png"
+      }
+    },
+    {
+      "path": "uncertainties/herwig_groomed_2.png",
+      "folder": "uncertainties",
+      "name": "herwig groomed 2",
+      "files": {
+        "original": "plots/original/uncertainties/herwig_groomed_2.png"
+      }
+    },
+    {
+      "path": "uncertainties/herwig_ungroomed_-1.png",
+      "folder": "uncertainties",
+      "name": "herwig ungroomed -1",
+      "files": {
+        "original": "plots/original/uncertainties/herwig_ungroomed_-1.png"
+      }
+    },
+    {
+      "path": "uncertainties/herwig_ungroomed_0.png",
+      "folder": "uncertainties",
+      "name": "herwig ungroomed 0",
+      "files": {
+        "original": "plots/original/uncertainties/herwig_ungroomed_0.png"
+      }
+    },
+    {
+      "path": "uncertainties/herwig_ungroomed_1.png",
+      "folder": "uncertainties",
+      "name": "herwig ungroomed 1",
+      "files": {
+        "original": "plots/original/uncertainties/herwig_ungroomed_1.png"
+      }
+    },
+    {
+      "path": "uncertainties/herwig_ungroomed_2.png",
+      "folder": "uncertainties",
+      "name": "herwig ungroomed 2",
+      "files": {
+        "original": "plots/original/uncertainties/herwig_ungroomed_2.png"
+      }
+    },
+    {
+      "path": "uncertainties/isr_groomed_-1.png",
+      "folder": "uncertainties",
+      "name": "isr groomed -1",
+      "files": {
+        "original": "plots/original/uncertainties/isr_groomed_-1.png"
+      }
+    },
+    {
+      "path": "uncertainties/isr_groomed_0.png",
+      "folder": "uncertainties",
+      "name": "isr groomed 0",
+      "files": {
+        "original": "plots/original/uncertainties/isr_groomed_0.png"
+      }
+    },
+    {
+      "path": "uncertainties/isr_groomed_1.png",
+      "folder": "uncertainties",
+      "name": "isr groomed 1",
+      "files": {
+        "original": "plots/original/uncertainties/isr_groomed_1.png"
+      }
+    },
+    {
+      "path": "uncertainties/isr_groomed_2.png",
+      "folder": "uncertainties",
+      "name": "isr groomed 2",
+      "files": {
+        "original": "plots/original/uncertainties/isr_groomed_2.png"
+      }
+    },
+    {
+      "path": "uncertainties/isr_ungroomed_-1.png",
+      "folder": "uncertainties",
+      "name": "isr ungroomed -1",
+      "files": {
+        "original": "plots/original/uncertainties/isr_ungroomed_-1.png"
+      }
+    },
+    {
+      "path": "uncertainties/isr_ungroomed_0.png",
+      "folder": "uncertainties",
+      "name": "isr ungroomed 0",
+      "files": {
+        "original": "plots/original/uncertainties/isr_ungroomed_0.png"
+      }
+    },
+    {
+      "path": "uncertainties/isr_ungroomed_1.png",
+      "folder": "uncertainties",
+      "name": "isr ungroomed 1",
+      "files": {
+        "original": "plots/original/uncertainties/isr_ungroomed_1.png"
+      }
+    },
+    {
+      "path": "uncertainties/isr_ungroomed_2.png",
+      "folder": "uncertainties",
+      "name": "isr ungroomed 2",
+      "files": {
+        "original": "plots/original/uncertainties/isr_ungroomed_2.png"
+      }
+    },
+    {
+      "path": "uncertainties/q2_groomed_-1.png",
+      "folder": "uncertainties",
+      "name": "q2 groomed -1",
+      "files": {
+        "original": "plots/original/uncertainties/q2_groomed_-1.png"
+      }
+    },
+    {
+      "path": "uncertainties/q2_groomed_0.png",
+      "folder": "uncertainties",
+      "name": "q2 groomed 0",
+      "files": {
+        "original": "plots/original/uncertainties/q2_groomed_0.png"
+      }
+    },
+    {
+      "path": "uncertainties/q2_groomed_1.png",
+      "folder": "uncertainties",
+      "name": "q2 groomed 1",
+      "files": {
+        "original": "plots/original/uncertainties/q2_groomed_1.png"
+      }
+    },
+    {
+      "path": "uncertainties/q2_groomed_2.png",
+      "folder": "uncertainties",
+      "name": "q2 groomed 2",
+      "files": {
+        "original": "plots/original/uncertainties/q2_groomed_2.png"
+      }
+    },
+    {
+      "path": "uncertainties/q2_ungroomed_-1.png",
+      "folder": "uncertainties",
+      "name": "q2 ungroomed -1",
+      "files": {
+        "original": "plots/original/uncertainties/q2_ungroomed_-1.png"
+      }
+    },
+    {
+      "path": "uncertainties/q2_ungroomed_0.png",
+      "folder": "uncertainties",
+      "name": "q2 ungroomed 0",
+      "files": {
+        "original": "plots/original/uncertainties/q2_ungroomed_0.png"
+      }
+    },
+    {
+      "path": "uncertainties/q2_ungroomed_1.png",
+      "folder": "uncertainties",
+      "name": "q2 ungroomed 1",
+      "files": {
+        "original": "plots/original/uncertainties/q2_ungroomed_1.png"
+      }
+    },
+    {
+      "path": "uncertainties/q2_ungroomed_2.png",
+      "folder": "uncertainties",
+      "name": "q2 ungroomed 2",
+      "files": {
+        "original": "plots/original/uncertainties/q2_ungroomed_2.png"
+      }
+    },
+    {
+      "path": "uncertainties/stat_fraction_groomed_-1.png",
+      "folder": "uncertainties",
+      "name": "stat fraction groomed -1",
+      "files": {
+        "original": "plots/original/uncertainties/stat_fraction_groomed_-1.png"
+      }
+    },
+    {
+      "path": "uncertainties/stat_fraction_groomed_0.png",
+      "folder": "uncertainties",
+      "name": "stat fraction groomed 0",
+      "files": {
+        "original": "plots/original/uncertainties/stat_fraction_groomed_0.png"
+      }
+    },
+    {
+      "path": "uncertainties/stat_fraction_groomed_1.png",
+      "folder": "uncertainties",
+      "name": "stat fraction groomed 1",
+      "files": {
+        "original": "plots/original/uncertainties/stat_fraction_groomed_1.png"
+      }
+    },
+    {
+      "path": "uncertainties/stat_fraction_groomed_2.png",
+      "folder": "uncertainties",
+      "name": "stat fraction groomed 2",
+      "files": {
+        "original": "plots/original/uncertainties/stat_fraction_groomed_2.png"
+      }
+    },
+    {
+      "path": "uncertainties/stat_fraction_ungroomed_-1.png",
+      "folder": "uncertainties",
+      "name": "stat fraction ungroomed -1",
+      "files": {
+        "original": "plots/original/uncertainties/stat_fraction_ungroomed_-1.png"
+      }
+    },
+    {
+      "path": "uncertainties/stat_fraction_ungroomed_0.png",
+      "folder": "uncertainties",
+      "name": "stat fraction ungroomed 0",
+      "files": {
+        "original": "plots/original/uncertainties/stat_fraction_ungroomed_0.png"
+      }
+    },
+    {
+      "path": "uncertainties/stat_fraction_ungroomed_1.png",
+      "folder": "uncertainties",
+      "name": "stat fraction ungroomed 1",
+      "files": {
+        "original": "plots/original/uncertainties/stat_fraction_ungroomed_1.png"
+      }
+    },
+    {
+      "path": "uncertainties/stat_fraction_ungroomed_2.png",
+      "folder": "uncertainties",
+      "name": "stat fraction ungroomed 2",
+      "files": {
+        "original": "plots/original/uncertainties/stat_fraction_ungroomed_2.png"
+      }
+    },
+    {
+      "path": "uncertainties/summary_groomed_-1.png",
+      "folder": "uncertainties",
+      "name": "summary groomed -1",
+      "files": {
+        "original": "plots/original/uncertainties/summary_groomed_-1.png"
+      }
+    },
+    {
+      "path": "uncertainties/summary_groomed_0.png",
+      "folder": "uncertainties",
+      "name": "summary groomed 0",
+      "files": {
+        "original": "plots/original/uncertainties/summary_groomed_0.png"
+      }
+    },
+    {
+      "path": "uncertainties/summary_groomed_1.png",
+      "folder": "uncertainties",
+      "name": "summary groomed 1",
+      "files": {
+        "original": "plots/original/uncertainties/summary_groomed_1.png"
+      }
+    },
+    {
+      "path": "uncertainties/summary_groomed_2.png",
+      "folder": "uncertainties",
+      "name": "summary groomed 2",
+      "files": {
+        "original": "plots/original/uncertainties/summary_groomed_2.png"
+      }
+    },
+    {
+      "path": "uncertainties/summary_grouped_groomed_-1.png",
+      "folder": "uncertainties",
+      "name": "summary grouped groomed -1",
+      "files": {
+        "original": "plots/original/uncertainties/summary_grouped_groomed_-1.png"
+      }
+    },
+    {
+      "path": "uncertainties/summary_grouped_groomed_0.png",
+      "folder": "uncertainties",
+      "name": "summary grouped groomed 0",
+      "files": {
+        "original": "plots/original/uncertainties/summary_grouped_groomed_0.png"
+      }
+    },
+    {
+      "path": "uncertainties/summary_grouped_groomed_1.png",
+      "folder": "uncertainties",
+      "name": "summary grouped groomed 1",
+      "files": {
+        "original": "plots/original/uncertainties/summary_grouped_groomed_1.png"
+      }
+    },
+    {
+      "path": "uncertainties/summary_grouped_groomed_2.png",
+      "folder": "uncertainties",
+      "name": "summary grouped groomed 2",
+      "files": {
+        "original": "plots/original/uncertainties/summary_grouped_groomed_2.png"
+      }
+    },
+    {
+      "path": "uncertainties/summary_grouped_linear_groomed_-1.png",
+      "folder": "uncertainties",
+      "name": "summary grouped linear groomed -1",
+      "files": {
+        "original": "plots/original/uncertainties/summary_grouped_linear_groomed_-1.png"
+      }
+    },
+    {
+      "path": "uncertainties/summary_grouped_linear_groomed_0.png",
+      "folder": "uncertainties",
+      "name": "summary grouped linear groomed 0",
+      "files": {
+        "original": "plots/original/uncertainties/summary_grouped_linear_groomed_0.png"
+      }
+    },
+    {
+      "path": "uncertainties/summary_grouped_linear_groomed_1.png",
+      "folder": "uncertainties",
+      "name": "summary grouped linear groomed 1",
+      "files": {
+        "original": "plots/original/uncertainties/summary_grouped_linear_groomed_1.png"
+      }
+    },
+    {
+      "path": "uncertainties/summary_grouped_linear_groomed_2.png",
+      "folder": "uncertainties",
+      "name": "summary grouped linear groomed 2",
+      "files": {
+        "original": "plots/original/uncertainties/summary_grouped_linear_groomed_2.png"
+      }
+    },
+    {
+      "path": "uncertainties/summary_grouped_linear_ungroomed_-1.png",
+      "folder": "uncertainties",
+      "name": "summary grouped linear ungroomed -1",
+      "files": {
+        "original": "plots/original/uncertainties/summary_grouped_linear_ungroomed_-1.png"
+      }
+    },
+    {
+      "path": "uncertainties/summary_grouped_linear_ungroomed_0.png",
+      "folder": "uncertainties",
+      "name": "summary grouped linear ungroomed 0",
+      "files": {
+        "original": "plots/original/uncertainties/summary_grouped_linear_ungroomed_0.png"
+      }
+    },
+    {
+      "path": "uncertainties/summary_grouped_linear_ungroomed_1.png",
+      "folder": "uncertainties",
+      "name": "summary grouped linear ungroomed 1",
+      "files": {
+        "original": "plots/original/uncertainties/summary_grouped_linear_ungroomed_1.png"
+      }
+    },
+    {
+      "path": "uncertainties/summary_grouped_linear_ungroomed_2.png",
+      "folder": "uncertainties",
+      "name": "summary grouped linear ungroomed 2",
+      "files": {
+        "original": "plots/original/uncertainties/summary_grouped_linear_ungroomed_2.png"
+      }
+    },
+    {
+      "path": "uncertainties/summary_grouped_ungroomed_-1.png",
+      "folder": "uncertainties",
+      "name": "summary grouped ungroomed -1",
+      "files": {
+        "original": "plots/original/uncertainties/summary_grouped_ungroomed_-1.png"
+      }
+    },
+    {
+      "path": "uncertainties/summary_grouped_ungroomed_0.png",
+      "folder": "uncertainties",
+      "name": "summary grouped ungroomed 0",
+      "files": {
+        "original": "plots/original/uncertainties/summary_grouped_ungroomed_0.png"
+      }
+    },
+    {
+      "path": "uncertainties/summary_grouped_ungroomed_1.png",
+      "folder": "uncertainties",
+      "name": "summary grouped ungroomed 1",
+      "files": {
+        "original": "plots/original/uncertainties/summary_grouped_ungroomed_1.png"
+      }
+    },
+    {
+      "path": "uncertainties/summary_grouped_ungroomed_2.png",
+      "folder": "uncertainties",
+      "name": "summary grouped ungroomed 2",
+      "files": {
+        "original": "plots/original/uncertainties/summary_grouped_ungroomed_2.png"
+      }
+    },
+    {
+      "path": "uncertainties/summary_ungroomed_-1.png",
+      "folder": "uncertainties",
+      "name": "summary ungroomed -1",
+      "files": {
+        "original": "plots/original/uncertainties/summary_ungroomed_-1.png"
+      }
+    },
+    {
+      "path": "uncertainties/summary_ungroomed_0.png",
+      "folder": "uncertainties",
+      "name": "summary ungroomed 0",
+      "files": {
+        "original": "plots/original/uncertainties/summary_ungroomed_0.png"
+      }
+    },
+    {
+      "path": "uncertainties/summary_ungroomed_1.png",
+      "folder": "uncertainties",
+      "name": "summary ungroomed 1",
+      "files": {
+        "original": "plots/original/uncertainties/summary_ungroomed_1.png"
+      }
+    },
+    {
+      "path": "uncertainties/summary_ungroomed_2.png",
+      "folder": "uncertainties",
+      "name": "summary ungroomed 2",
+      "files": {
+        "original": "plots/original/uncertainties/summary_ungroomed_2.png"
+      }
+    },
+    {
+      "path": "unfold/correlation_groomed.png",
+      "folder": "unfold",
+      "name": "correlation groomed",
+      "files": {
+        "original": "plots/original/unfold/correlation_groomed.png"
+      }
+    },
+    {
+      "path": "unfold/correlation_ungroomed.png",
+      "folder": "unfold",
+      "name": "correlation ungroomed",
+      "files": {
+        "original": "plots/original/unfold/correlation_ungroomed.png"
+      }
+    },
+    {
+      "path": "unfold/folded_groomed_-1.png",
+      "folder": "unfold",
+      "name": "folded groomed -1",
+      "files": {
+        "original": "plots/original/unfold/folded_groomed_-1.png"
+      }
+    },
+    {
+      "path": "unfold/folded_groomed_0.png",
+      "folder": "unfold",
+      "name": "folded groomed 0",
+      "files": {
+        "original": "plots/original/unfold/folded_groomed_0.png"
+      }
+    },
+    {
+      "path": "unfold/folded_groomed_1.png",
+      "folder": "unfold",
+      "name": "folded groomed 1",
+      "files": {
+        "original": "plots/original/unfold/folded_groomed_1.png"
+      }
+    },
+    {
+      "path": "unfold/folded_groomed_2.png",
+      "folder": "unfold",
+      "name": "folded groomed 2",
+      "files": {
+        "original": "plots/original/unfold/folded_groomed_2.png"
+      }
+    },
+    {
+      "path": "unfold/folded_ungroomed_-1.png",
+      "folder": "unfold",
+      "name": "folded ungroomed -1",
+      "files": {
+        "original": "plots/original/unfold/folded_ungroomed_-1.png"
+      }
+    },
+    {
+      "path": "unfold/folded_ungroomed_0.png",
+      "folder": "unfold",
+      "name": "folded ungroomed 0",
+      "files": {
+        "original": "plots/original/unfold/folded_ungroomed_0.png"
+      }
+    },
+    {
+      "path": "unfold/folded_ungroomed_1.png",
+      "folder": "unfold",
+      "name": "folded ungroomed 1",
+      "files": {
+        "original": "plots/original/unfold/folded_ungroomed_1.png"
+      }
+    },
+    {
+      "path": "unfold/folded_ungroomed_2.png",
+      "folder": "unfold",
+      "name": "folded ungroomed 2",
+      "files": {
+        "original": "plots/original/unfold/folded_ungroomed_2.png"
+      }
+    },
+    {
+      "path": "unfold/groomed_-1.png",
+      "folder": "unfold",
+      "name": "groomed -1",
+      "files": {
+        "original": "plots/original/unfold/groomed_-1.png"
+      }
+    },
+    {
+      "path": "unfold/groomed_0.png",
+      "folder": "unfold",
+      "name": "groomed 0",
+      "files": {
+        "original": "plots/original/unfold/groomed_0.png"
+      }
+    },
+    {
+      "path": "unfold/groomed_1.png",
+      "folder": "unfold",
+      "name": "groomed 1",
+      "files": {
+        "original": "plots/original/unfold/groomed_1.png"
+      }
+    },
+    {
+      "path": "unfold/groomed_2.png",
+      "folder": "unfold",
+      "name": "groomed 2",
+      "files": {
+        "original": "plots/original/unfold/groomed_2.png"
+      }
+    },
+    {
+      "path": "unfold/jk_inputs_groomed_pt-1.png",
+      "folder": "unfold",
+      "name": "jk inputs groomed pt-1",
+      "files": {
+        "original": "plots/original/unfold/jk_inputs_groomed_pt-1.png"
+      }
+    },
+    {
+      "path": "unfold/jk_inputs_groomed_pt0.png",
+      "folder": "unfold",
+      "name": "jk inputs groomed pt0",
+      "files": {
+        "original": "plots/original/unfold/jk_inputs_groomed_pt0.png"
+      }
+    },
+    {
+      "path": "unfold/jk_inputs_groomed_pt1.png",
+      "folder": "unfold",
+      "name": "jk inputs groomed pt1",
+      "files": {
+        "original": "plots/original/unfold/jk_inputs_groomed_pt1.png"
+      }
+    },
+    {
+      "path": "unfold/jk_inputs_groomed_pt2.png",
+      "folder": "unfold",
+      "name": "jk inputs groomed pt2",
+      "files": {
+        "original": "plots/original/unfold/jk_inputs_groomed_pt2.png"
+      }
+    },
+    {
+      "path": "unfold/jk_inputs_ungroomed_pt-1.png",
+      "folder": "unfold",
+      "name": "jk inputs ungroomed pt-1",
+      "files": {
+        "original": "plots/original/unfold/jk_inputs_ungroomed_pt-1.png"
+      }
+    },
+    {
+      "path": "unfold/jk_inputs_ungroomed_pt0.png",
+      "folder": "unfold",
+      "name": "jk inputs ungroomed pt0",
+      "files": {
+        "original": "plots/original/unfold/jk_inputs_ungroomed_pt0.png"
+      }
+    },
+    {
+      "path": "unfold/jk_inputs_ungroomed_pt1.png",
+      "folder": "unfold",
+      "name": "jk inputs ungroomed pt1",
+      "files": {
+        "original": "plots/original/unfold/jk_inputs_ungroomed_pt1.png"
+      }
+    },
+    {
+      "path": "unfold/jk_inputs_ungroomed_pt2.png",
+      "folder": "unfold",
+      "name": "jk inputs ungroomed pt2",
+      "files": {
+        "original": "plots/original/unfold/jk_inputs_ungroomed_pt2.png"
+      }
+    },
+    {
+      "path": "unfold/jk_outputs_groomed_pt-1.png",
+      "folder": "unfold",
+      "name": "jk outputs groomed pt-1",
+      "files": {
+        "original": "plots/original/unfold/jk_outputs_groomed_pt-1.png"
+      }
+    },
+    {
+      "path": "unfold/jk_outputs_groomed_pt0.png",
+      "folder": "unfold",
+      "name": "jk outputs groomed pt0",
+      "files": {
+        "original": "plots/original/unfold/jk_outputs_groomed_pt0.png"
+      }
+    },
+    {
+      "path": "unfold/jk_outputs_groomed_pt1.png",
+      "folder": "unfold",
+      "name": "jk outputs groomed pt1",
+      "files": {
+        "original": "plots/original/unfold/jk_outputs_groomed_pt1.png"
+      }
+    },
+    {
+      "path": "unfold/jk_outputs_groomed_pt2.png",
+      "folder": "unfold",
+      "name": "jk outputs groomed pt2",
+      "files": {
+        "original": "plots/original/unfold/jk_outputs_groomed_pt2.png"
+      }
+    },
+    {
+      "path": "unfold/jk_outputs_ungroomed_pt-1.png",
+      "folder": "unfold",
+      "name": "jk outputs ungroomed pt-1",
+      "files": {
+        "original": "plots/original/unfold/jk_outputs_ungroomed_pt-1.png"
+      }
+    },
+    {
+      "path": "unfold/jk_outputs_ungroomed_pt0.png",
+      "folder": "unfold",
+      "name": "jk outputs ungroomed pt0",
+      "files": {
+        "original": "plots/original/unfold/jk_outputs_ungroomed_pt0.png"
+      }
+    },
+    {
+      "path": "unfold/jk_outputs_ungroomed_pt1.png",
+      "folder": "unfold",
+      "name": "jk outputs ungroomed pt1",
+      "files": {
+        "original": "plots/original/unfold/jk_outputs_ungroomed_pt1.png"
+      }
+    },
+    {
+      "path": "unfold/jk_outputs_ungroomed_pt2.png",
+      "folder": "unfold",
+      "name": "jk outputs ungroomed pt2",
+      "files": {
+        "original": "plots/original/unfold/jk_outputs_ungroomed_pt2.png"
+      }
+    },
+    {
+      "path": "unfold/response_groomed.png",
+      "folder": "unfold",
+      "name": "response groomed",
+      "files": {
+        "original": "plots/original/unfold/response_groomed.png"
+      }
+    },
+    {
+      "path": "unfold/response_ungroomed.png",
+      "folder": "unfold",
+      "name": "response ungroomed",
+      "files": {
+        "original": "plots/original/unfold/response_ungroomed.png"
+      }
+    },
+    {
+      "path": "unfold/unfolded_basic_groomed_-1.png",
+      "folder": "unfold",
+      "name": "unfolded basic groomed -1",
+      "files": {
+        "original": "plots/original/unfold/unfolded_basic_groomed_-1.png"
+      }
+    },
+    {
+      "path": "unfold/unfolded_basic_groomed_0.png",
+      "folder": "unfold",
+      "name": "unfolded basic groomed 0",
+      "files": {
+        "original": "plots/original/unfold/unfolded_basic_groomed_0.png"
+      }
+    },
+    {
+      "path": "unfold/unfolded_basic_groomed_1.png",
+      "folder": "unfold",
+      "name": "unfolded basic groomed 1",
+      "files": {
+        "original": "plots/original/unfold/unfolded_basic_groomed_1.png"
+      }
+    },
+    {
+      "path": "unfold/unfolded_basic_groomed_2.png",
+      "folder": "unfold",
+      "name": "unfolded basic groomed 2",
+      "files": {
+        "original": "plots/original/unfold/unfolded_basic_groomed_2.png"
+      }
+    },
+    {
+      "path": "unfold/unfolded_basic_ungroomed_-1.png",
+      "folder": "unfold",
+      "name": "unfolded basic ungroomed -1",
+      "files": {
+        "original": "plots/original/unfold/unfolded_basic_ungroomed_-1.png"
+      }
+    },
+    {
+      "path": "unfold/unfolded_basic_ungroomed_0.png",
+      "folder": "unfold",
+      "name": "unfolded basic ungroomed 0",
+      "files": {
+        "original": "plots/original/unfold/unfolded_basic_ungroomed_0.png"
+      }
+    },
+    {
+      "path": "unfold/unfolded_basic_ungroomed_1.png",
+      "folder": "unfold",
+      "name": "unfolded basic ungroomed 1",
+      "files": {
+        "original": "plots/original/unfold/unfolded_basic_ungroomed_1.png"
+      }
+    },
+    {
+      "path": "unfold/unfolded_basic_ungroomed_2.png",
+      "folder": "unfold",
+      "name": "unfolded basic ungroomed 2",
+      "files": {
+        "original": "plots/original/unfold/unfolded_basic_ungroomed_2.png"
+      }
+    },
+    {
+      "path": "unfold/ungroomed_-1.png",
+      "folder": "unfold",
+      "name": "ungroomed -1",
+      "files": {
+        "original": "plots/original/unfold/ungroomed_-1.png"
+      }
+    },
+    {
+      "path": "unfold/ungroomed_0.png",
+      "folder": "unfold",
+      "name": "ungroomed 0",
+      "files": {
+        "original": "plots/original/unfold/ungroomed_0.png"
+      }
+    },
+    {
+      "path": "unfold/ungroomed_1.png",
+      "folder": "unfold",
+      "name": "ungroomed 1",
+      "files": {
+        "original": "plots/original/unfold/ungroomed_1.png"
+      }
+    },
+    {
+      "path": "unfold/ungroomed_2.png",
+      "folder": "unfold",
+      "name": "ungroomed 2",
+      "files": {
+        "original": "plots/original/unfold/ungroomed_2.png"
+      }
+    },
+    {
+      "path": "ungroomed_summary.png",
+      "folder": ".",
+      "name": "ungroomed summary",
+      "files": {
+        "original": "plots/original/ungroomed_summary.png"
+      }
+    },
+    {
+      "path": "ungroomed_summary_linear.png",
+      "folder": ".",
+      "name": "ungroomed summary linear",
+      "files": {
+        "original": "plots/original/ungroomed_summary_linear.png"
+      }
+    }
+  ]
 }
