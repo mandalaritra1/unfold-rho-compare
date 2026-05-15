@@ -277,6 +277,8 @@ img {
 .overlay-view img,
 .swipe-view img {
   width: 100%;
+  max-width: 100%;
+  height: auto;
 }
 
 #overlay-right {
@@ -290,13 +292,15 @@ img {
   position: absolute;
   inset: 0;
   overflow: hidden;
-  width: 50%;
-  border-right: 2px solid var(--accent-2);
+  width: 100%;
+  clip-path: inset(0 calc(100% - var(--swipe-pos, 50%)) 0 0);
+  pointer-events: none;
 }
 
 #swipe-mask img {
-  width: var(--swipe-img-width, 1000px);
-  max-width: none;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
 }
 
 #swipe-line {

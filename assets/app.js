@@ -282,13 +282,12 @@ function updateControls() {
   els.stage.dataset.mode = state.mode;
   els.overlayRight.style.opacity = String(Number(els.opacity.value) / 100);
   const swipeValue = Number(els.swipe.value);
-  els.swipeMask.style.width = `${swipeValue}%`;
+  els.swipeMask.style.setProperty("--swipe-pos", `${swipeValue}%`);
   els.swipeLine.style.left = `${swipeValue}%`;
 }
 
 function updateSwipeWidth() {
-  const width = els.swipeLeft.getBoundingClientRect().width || els.swipeLeft.naturalWidth || 1000;
-  els.swipeRight.style.setProperty("--swipe-img-width", `${width}px`);
+  updateControls();
 }
 
 function drawDiff() {
