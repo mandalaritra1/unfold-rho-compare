@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rho Output Compare</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <h1>Rho Output Compare</h1>
+      <p id="summary">Loading plot manifest...</p>
+    </div>
+    <div class="selectors" aria-label="Version selectors">
+      <label>
+        Left
+        <select id="left-version"></select>
+      </label>
+      <label>
+        Right
+        <select id="right-version"></select>
+      </label>
+    </div>
+  </header>
+
+  <main class="layout">
+    <aside class="sidebar">
+      <input id="filter" type="search" placeholder="Filter plots">
+      <div class="mode-row" role="group" aria-label="Comparison mode">
+        <button class="mode active" type="button" data-mode="side">Side</button>
+        <button class="mode" type="button" data-mode="overlay">Overlay</button>
+        <button class="mode" type="button" data-mode="swipe">Swipe</button>
+        <button class="mode" type="button" data-mode="diff">Diff</button>
+      </div>
+      <label class="range-control">
+        Overlay opacity
+        <input id="opacity" type="range" min="0" max="100" value="50">
+      </label>
+      <label class="range-control">
+        Swipe position
+        <input id="swipe" type="range" min="0" max="100" value="50">
+      </label>
+      <label class="range-control">
+        Diff gain
+        <input id="diff-gain" type="range" min="1" max="8" value="4">
+      </label>
+      <div id="plot-count" class="count">0 plots</div>
+      <nav id="plot-list" class="plot-list" aria-label="Plots"></nav>
+    </aside>
+
+    <section class="viewer">
+      <div class="viewer-head">
+        <div>
+          <h2 id="plot-title">No plot selected</h2>
+          <p id="plot-path"></p>
+        </div>
+        <div id="warning" class="warning" hidden></div>
+      </div>
+
+      <div id="stage" class="stage" data-mode="side">
+        <div class="side-view">
+          <figure>
+            <figcaption id="left-caption">Left</figcaption>
+            <img id="left-img" alt="">
+          </figure>
+          <figure>
+            <figcaption id="right-caption">Right</figcaption>
+            <img id="right-img" alt="">
+          </figure>
+        </div>
+        <div class="overlay-view">
+          <img id="overlay-left" alt="">
+          <img id="overlay-right" alt="">
+        </div>
+        <div class="swipe-view">
+          <img id="swipe-left" alt="">
+          <div id="swipe-mask">
+            <img id="swipe-right" alt="">
+          </div>
+          <div id="swipe-line"></div>
+        </div>
+        <canvas id="diff-canvas"></canvas>
+      </div>
+    </section>
+  </main>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
