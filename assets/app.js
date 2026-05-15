@@ -4,6 +4,7 @@ const state = {
   filtered: [],
   selectedPath: null,
   mode: "side",
+  shortcut: "important",
 };
 
 const els = {
@@ -11,6 +12,7 @@ const els = {
   leftVersion: document.getElementById("left-version"),
   rightVersion: document.getElementById("right-version"),
   filter: document.getElementById("filter"),
+  shortcuts: Array.from(document.querySelectorAll(".shortcut")),
   modes: Array.from(document.querySelectorAll(".mode")),
   opacity: document.getElementById("opacity"),
   swipe: document.getElementById("swipe"),
@@ -32,6 +34,52 @@ const els = {
   swipeMask: document.getElementById("swipe-mask"),
   swipeLine: document.getElementById("swipe-line"),
   diffCanvas: document.getElementById("diff-canvas"),
+};
+
+const SHORTCUTS = {
+  all: {
+    label: "All",
+    match: () => true,
+  },
+  response: {
+    label: "Response",
+    match: (path) => path.includes("unfold/response_"),
+  },
+  inputs: {
+    label: "Inputs",
+    match: (path) => /^input_(groomed|ungroomed)_/.test(path),
+  },
+  unfolded: {
+    label: "Unfolded",
+    match: (path) => (
+      path.startsWith("bottom_line_")
+      || path.includes("unfold/groomed_")
+      || path.includes("unfold/ungroomed_")
+      || path.includes("unfold/unfolded_basic_")
+    ),
+  },
+  unc_grouped: {
+    label: "Unc grouped",
+    match: (path) => path.includes("uncertainties/summary_grouped"),
+  },
+  unc_ungrouped: {
+    label: "Unc ungrouped",
+    match: (path) => (
+      path.includes("uncertainties/summary_")
+      && !path.includes("uncertainties/summary_grouped")
+    ),
+  },
+};
+
+SHORTCUTS.important = {
+  label: "Important",
+  match: (path) => (
+    SHORTCUTS.response.match(path)
+    || SHORTCUTS.inputs.match(path)
+    || SHORTCUTS.unfolded.match(path)
+    || SHORTCUTS.unc_grouped.match(path)
+    || SHORTCUTS.unc_ungrouped.match(path)
+  ),
 };
 
 function normalizeManifest(raw) {
@@ -75,9 +123,10 @@ function currentItem() {
 
 function applyFilter() {
   const term = els.filter.value.trim().toLowerCase();
+  const shortcut = SHORTCUTS[state.shortcut] || SHORTCUTS.important;
   state.filtered = state.items.filter((item) => {
     const text = `${item.path} ${item.folder} ${item.name}`.toLowerCase();
-    return !term || text.includes(term);
+    return shortcut.match(item.path) && (!term || text.includes(term));
   });
   renderList();
   if (!state.filtered.some((item) => item.path === state.selectedPath)) {
@@ -87,7 +136,8 @@ function applyFilter() {
 
 function renderList() {
   els.plotList.innerHTML = "";
-  els.plotCount.textContent = `${state.filtered.length} plots`;
+  const shortcut = SHORTCUTS[state.shortcut] || SHORTCUTS.important;
+  els.plotCount.textContent = `${state.filtered.length} ${shortcut.label.toLowerCase()} plots`;
   for (const item of state.filtered) {
     const button = document.createElement("button");
     button.type = "button";
@@ -259,6 +309,14 @@ function setMode(mode) {
   if (mode === "diff") drawDiff();
 }
 
+function setShortcut(shortcut) {
+  state.shortcut = shortcut;
+  for (const button of els.shortcuts) {
+    button.classList.toggle("active", button.dataset.shortcut === shortcut);
+  }
+  applyFilter();
+}
+
 async function init() {
   try {
     const response = await fetch("manifest.json", { cache: "no-store" });
@@ -281,6 +339,9 @@ async function init() {
 }
 
 els.filter.addEventListener("input", applyFilter);
+for (const button of els.shortcuts) {
+  button.addEventListener("click", () => setShortcut(button.dataset.shortcut));
+}
 els.leftVersion.addEventListener("change", updateViewer);
 els.rightVersion.addEventListener("change", updateViewer);
 els.opacity.addEventListener("input", updateControls);

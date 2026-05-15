@@ -111,6 +111,7 @@ input[type="search"] {
 }
 
 .mode,
+.shortcut,
 .plot-list button {
   border: 1px solid var(--line);
   border-radius: 6px;
@@ -119,11 +120,35 @@ input[type="search"] {
   cursor: pointer;
 }
 
+.shortcut-panel {
+  margin: 12px 0;
+}
+
+.shortcut-label {
+  margin-bottom: 6px;
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 750;
+}
+
+.shortcut-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.shortcut {
+  min-height: 32px;
+  padding: 0 9px;
+  font-size: 0.86rem;
+}
+
 .mode {
   min-height: 34px;
 }
 
-.mode.active {
+.mode.active,
+.shortcut.active {
   border-color: var(--accent);
   background: var(--soft);
   color: var(--accent);

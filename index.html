@@ -27,6 +27,18 @@
   <main class="layout">
     <aside class="sidebar">
       <input id="filter" type="search" placeholder="Filter plots">
+      <div class="shortcut-panel">
+        <div class="shortcut-label">Shortcuts</div>
+        <div class="shortcut-row" role="group" aria-label="Plot shortcuts">
+          <button class="shortcut active" type="button" data-shortcut="important">Important</button>
+          <button class="shortcut" type="button" data-shortcut="response">Response</button>
+          <button class="shortcut" type="button" data-shortcut="inputs">Inputs</button>
+          <button class="shortcut" type="button" data-shortcut="unfolded">Unfolded</button>
+          <button class="shortcut" type="button" data-shortcut="unc_grouped">Unc grouped</button>
+          <button class="shortcut" type="button" data-shortcut="unc_ungrouped">Unc ungrouped</button>
+          <button class="shortcut" type="button" data-shortcut="all">All</button>
+        </div>
+      </div>
       <div class="mode-row" role="group" aria-label="Comparison mode">
         <button class="mode active" type="button" data-mode="side">Side</button>
         <button class="mode" type="button" data-mode="overlay">Overlay</button>
