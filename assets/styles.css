@@ -52,6 +52,30 @@ h1 {
   font-size: 0.92rem;
 }
 
+.compare-legend {
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: 0.86rem;
+}
+
+.legend-swatch {
+  display: inline-block;
+  width: 0.85em;
+  height: 0.85em;
+  margin: 0 0.25em 0 0.6em;
+  border-radius: 2px;
+  vertical-align: -0.08em;
+}
+
+.legend-swatch.left {
+  border: 1px solid var(--line);
+  background: #fff;
+}
+
+.legend-swatch.right {
+  background: #1b9aaa;
+}
+
 .selectors {
   display: flex;
   gap: 12px;

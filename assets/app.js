@@ -21,6 +21,7 @@ const els = {
   plotList: document.getElementById("plot-list"),
   plotTitle: document.getElementById("plot-title"),
   plotPath: document.getElementById("plot-path"),
+  compareLegend: document.getElementById("compare-legend"),
   warning: document.getElementById("warning"),
   stage: document.getElementById("stage"),
   leftCaption: document.getElementById("left-caption"),
@@ -201,6 +202,7 @@ function updateViewer() {
   if (!item) {
     els.plotTitle.textContent = "No plot selected";
     els.plotPath.textContent = "";
+    els.compareLegend.textContent = "";
     clearImages();
     return;
   }
@@ -209,6 +211,10 @@ function updateViewer() {
   const rightSrc = pathFor(item, rightVersion);
   els.plotTitle.textContent = item.name;
   els.plotPath.textContent = item.path;
+  els.compareLegend.innerHTML = (
+    `<span class="legend-swatch left"></span>${leftVersion} is the base image. `
+    + `<span class="legend-swatch right"></span>${rightVersion} is the blue-tinted overlay/swipe layer.`
+  );
   setImage(els.leftImg, leftSrc, `${leftVersion} ${item.path}`);
   setImage(els.rightImg, rightSrc, `${rightVersion} ${item.path}`);
   setImage(els.overlayLeft, leftSrc, `${leftVersion} ${item.path}`);
