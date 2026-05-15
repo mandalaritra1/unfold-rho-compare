@@ -71,6 +71,25 @@ const SHORTCUTS = {
   },
 };
 
+const INPUT_PT_LABELS = {
+  "0": "0-200 GeV",
+  "1": "200-290 GeV",
+  "2": "290-400 GeV",
+  "3": "400-inf GeV",
+};
+
+const SHIFTED_PT_LABELS = {
+  "-1": "0-200 GeV",
+  "0": "200-290 GeV",
+  "1": "290-400 GeV",
+  "2": "400-inf GeV",
+};
+
+function formatPtBin(raw, path) {
+  const labels = path.startsWith("input_") ? INPUT_PT_LABELS : SHIFTED_PT_LABELS;
+  return labels[raw] || `pT bin ${raw}`;
+}
+
 SHORTCUTS.important = {
   label: "Important",
   match: (path) => (
@@ -90,7 +109,10 @@ function normalizeManifest(raw) {
 
 function titleFromPath(path) {
   const file = path.split("/").pop() || path;
-  return file.replace(/\.png$/i, "").replaceAll("_", " ");
+  let title = file.replace(/\.png$/i, "").replaceAll("_", " ");
+  title = title.replace(/ (-?\d+)$/, (_, bin) => `, ${formatPtBin(bin, path)}`);
+  title = title.replace(/ pt(-?\d+)$/, (_, bin) => `, ${formatPtBin(bin, path)}`);
+  return title;
 }
 
 function folderFromPath(path) {
@@ -291,10 +313,25 @@ function drawDiff() {
   const left = leftCtx.getImageData(0, 0, width, height);
   const right = rightCtx.getImageData(0, 0, width, height);
   const out = leftCtx.createImageData(width, height);
+  const whiteCut = 245;
+  const deltaCut = 10;
   for (let i = 0; i < left.data.length; i += 4) {
-    out.data[i] = Math.min(255, Math.abs(left.data[i] - right.data[i]) * gain);
-    out.data[i + 1] = Math.min(255, Math.abs(left.data[i + 1] - right.data[i + 1]) * gain);
-    out.data[i + 2] = Math.min(255, Math.abs(left.data[i + 2] - right.data[i + 2]) * gain);
+    const leftWhite = left.data[i] > whiteCut && left.data[i + 1] > whiteCut && left.data[i + 2] > whiteCut;
+    const rightWhite = right.data[i] > whiteCut && right.data[i + 1] > whiteCut && right.data[i + 2] > whiteCut;
+    const dr = Math.abs(left.data[i] - right.data[i]);
+    const dg = Math.abs(left.data[i + 1] - right.data[i + 1]);
+    const db = Math.abs(left.data[i + 2] - right.data[i + 2]);
+    const delta = Math.max(dr, dg, db);
+    if ((leftWhite && rightWhite) || delta < deltaCut) {
+      out.data[i] = 255;
+      out.data[i + 1] = 255;
+      out.data[i + 2] = 255;
+    } else {
+      const intensity = Math.min(255, delta * gain);
+      out.data[i] = 255;
+      out.data[i + 1] = 255 - intensity;
+      out.data[i + 2] = Math.max(40, 255 - Math.floor(intensity * 0.35));
+    }
     out.data[i + 3] = 255;
   }
   els.diffCanvas.getContext("2d").putImageData(out, 0, 0);
@@ -330,7 +367,7 @@ async function init() {
 
   state.items = state.manifest.plots.map((item) => ({
     ...item,
-    name: item.name || titleFromPath(item.path),
+    name: titleFromPath(item.path),
     folder: item.folder || folderFromPath(item.path),
   })).sort((a, b) => a.path.localeCompare(b.path));
   populateVersions();

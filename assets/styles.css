@@ -137,6 +137,13 @@ input[type="search"] {
   gap: 6px;
 }
 
+.shortcut-help {
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: 0.78rem;
+  line-height: 1.35;
+}
+
 .shortcut {
   min-height: 32px;
   padding: 0 9px;
@@ -275,6 +282,8 @@ img {
 #overlay-right {
   position: absolute;
   inset: 0;
+  filter: grayscale(1) sepia(1) saturate(8) hue-rotate(145deg) contrast(1.1);
+  mix-blend-mode: multiply;
 }
 
 #swipe-mask {
